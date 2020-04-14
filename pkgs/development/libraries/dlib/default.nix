@@ -3,7 +3,7 @@
 
   # see http://dlib.net/compile.html
 , avxSupport ? true
-, cudaSupport ? true
+, cudaSupport ? false
 }:
 
 stdenv.mkDerivation rec {
